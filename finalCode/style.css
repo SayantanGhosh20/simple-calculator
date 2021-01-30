@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to left,#1f1c2c,#928dab);
+  }
+  .container{
+      float: left;
+      margin: 40px 0px 0px 100px;
+      width: 400px;
+      height: 850px;
+      overflow: hidden;
+      border-radius: 50px;    
+      background: transparent; 
+      box-shadow:  20px 20px 100px #0c0b12,
+               -20px -20px 100px #322d46;
+  }
+  .screen{
+      position: relative;
+      width: 400px;
+      height: 350px;
+      border-radius: 50px 50px 0px 0px;    
+      background: #666378;
+      border: none;
+      outline: none;
+  }
+  .backLight{
+      box-sizing: border-box;
+      margin:0px 10px;
+      position: absolute;
+      top: 10px;
+      left: 0px;
+      width: 380px;
+      height:330px;
+      background:linear-gradient(to bottom,#1f1c2c,#928dab);    
+      border-radius: 50px 50px 0px 0px;    
+      box-shadow: 0px 3px 3px #0c0b12;
+  }
+  .computed{
+    width: 370px;
+    height: 60px;
+    position: absolute;  
+    background: transparent;
+    border-radius: 50px 50px 0px 0px;  
+    /* border:2px solid white; */
+    font-size: 50px;
+  }
+  .result{
+      
+      top: 50px;
+      width: 370px;
+      height: 270px;
+      margin-bottom: 15px;
+      margin-right: 10px;
+      position: absolute;   
+      background: transparent;   
+  }
+  .keypad{
+      width: 400px;
+      height: 500px;    
+      border-radius: 0px 0px 50px 50px;
+      overflow: hidden;
+  }
+  .op,.num,.equals,.ac,.ce,.dot{
+      float: left;
+      border-radius:0px;
+      outline: none;
+      width: 100px;
+      height: 100px;
+      margin: 0;
+      padding: 0;    
+      background:linear-gradient(to top,#1f1c2c,#928dab);
+      color: white;
+      font-size: 40px;
+      
+  }
+  button:active{
+      background:radial-gradient(#928dab,#1f1c2c);
+  }
+  .result{
+      
+      font-size: 70px;
+      color: white;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+  }
+  .computed{
+      /* border:2px solid white; */
+      padding-top: 8px;
+      display: flex;
+      justify-content: center;
+      color: white;
+  }
+  .content{
+      float: left;
+      position: relative;
+      top: 300px;
+      left: 500px;
+      width: 700px;
+      height: 600px;
+      color: white;
+      font-family: sans-serif;
+  }
+  .title{
+      font-size: 60px;
+  }
+  .author{
+      margin-top: 20px;
+     font-size: 30px;
+  }
+  .design{
+      margin-top: 20px;
+     font-size: 30px;
+  }
+  .summary{
+      margin-top: 20px;
+     font-size: 30px;
+  }
